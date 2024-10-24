@@ -11,9 +11,13 @@ public class Main {
         //for (int i = 0; fibonacciZahl(i) < 100; i++) {
            // System.out.println(fibonacciZahl(i));
         //}
+        System.out.println("Hallo");
+        System.out.println("Baba");
+        System.out.println("Halloooooooo");
     }
 
   // 1) Potenz von 3
+    //Hallooooooo
   public static boolean istPotenzVonDrei(int zahl){
         if (zahl == 1){
             return true;
@@ -25,6 +29,7 @@ public class Main {
   }
 
   // 2) Morsecode
+    //Babaaaaaaaaa
   private static void ausgabe(int n, String zeichenkette){
         if (n==0){
             System.out.println(zeichenkette);
