@@ -2,15 +2,17 @@ public class Main {
     public static void main(String[] args) {
 
         // 1) Dreierpotenz
-        //System.out.println(istPotenzVonDrei(27));
+        System.out.println("Dreierpotenz:");
+        System.out.println(istPotenzVonDrei(27));
 
         // 2) Morsecode
         ausgabe(3,"");
+        System.out.println("Letzte Ausgabe");
 
         // 3) Fibonacci-Zahlen
-        //for (int i = 0; fibonacciZahl(i) < 100; i++) {
-           // System.out.println(fibonacciZahl(i));
-        //}
+        for (int i = 0; fibonacciZahl(i) < 100; i++) {
+           System.out.println(fibonacciZahl(i));
+        }
     }
 
   // 1) Potenz von 3
@@ -41,6 +43,7 @@ public class Main {
         if (n<=1){
             return n;
         }
+      System.out.println("Hallo");
         return fibonacciZahl(n-1)+fibonacciZahl(n-2);
 
 
