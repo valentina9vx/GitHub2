@@ -1,7 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
+        //Hallo Valentina :-)
+
         // 1) Dreierpotenz
+        System.out.println("Dreierpotenz ist folgende:");
+        System.out.println(istPotenzVonDrei(33));
         //Ausgabe Dreierpotenz
         //Ausgabe
         //hallo
