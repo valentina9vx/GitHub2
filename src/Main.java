@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
 
+        //Hallo Valentina :-)
+
         // 1) Dreierpotenz
-        System.out.println("Dreierpotenz:");
-        System.out.println(istPotenzVonDrei(27));
+        System.out.println("Dreierpotenz ist folgende:");
+        System.out.println(istPotenzVonDrei(33));
 
         // 2) Morsecode
         ausgabe(3,"");
@@ -52,6 +54,8 @@ public class Main {
   }
 
   // 4) Suche mit Dichotomie
+    //Hier kommt der Code zu Dichotomie
+
 
 
     }
