@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         // 1) Dreierpotenz
+        //Ausgabe Dreierpotenz
         System.out.println("Dreierpotenz:");
         System.out.println(istPotenzVonDrei(27));
 
@@ -17,6 +18,7 @@ public class Main {
 
   // 1) Potenz von 3
     //Hallooooooo
+    //Methode für Potenz von 3
   public static boolean istPotenzVonDrei(int zahl){
         if (zahl == 1){
             return true;
@@ -40,8 +42,10 @@ public class Main {
   }
 
   // 3) Fibonacci-Zahlen
+    //Fibonacci
   public static int fibonacciZahl(int n){
         if (n<=1){
+            System.out.println("Fibonacci Zahlen lauten:");
             return n;
         }
       System.out.println("Hallo");
