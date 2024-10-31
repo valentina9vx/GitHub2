@@ -4,6 +4,7 @@ public class Main {
         // 1) Dreierpotenz
         //Ausgabe Dreierpotenz
         //Ausgabe
+        //hallo
         System.out.println("Dreierpotenz:");
         System.out.println(istPotenzVonDrei(27));
 
